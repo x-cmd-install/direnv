@@ -7,7 +7,7 @@ about:
   head: b00e451
   archived: false
   latestVersion: v2.37.1
-  collectedAt: 2026-09-04T19:22:21Z
+  collectedAt: 2026-09-04T21:11:23Z
 timeline:
   created: 2011-01-04
   lastCommit: 2026-03-31
@@ -87,6 +87,79 @@ total:
   openIssue: 369
   commit: 1315
 ---
+path: /home/runner/.x-repo/github.com/direnv/direnv
+collectedAt: 2026-09-04T21:11:24Z
+loc:
+  Go:
+    code: 4452
+    comments: 389
+    blanks: 812
+    files: 64
+  Sh:
+    code: 1287
+    comments: 662
+    blanks: 240
+    files: 6
+  PowerShell:
+    code: 311
+    comments: 8
+    blanks: 57
+    files: 1
+  Bash:
+    code: 276
+    comments: 52
+    blanks: 80
+    files: 5
+  Fish:
+    code: 184
+    comments: 18
+    blanks: 41
+    files: 1
+  Nix:
+    code: 161
+    comments: 12
+    blanks: 20
+    files: 3
+  Elvish:
+    code: 110
+    comments: 7
+    blanks: 30
+    files: 1
+  Yaml:
+    code: 23
+    comments: 2
+    blanks: 3
+    files: 1
+  Toml:
+    code: 17
+    comments: 0
+    blanks: 1
+    files: 2
+  Zsh:
+    code: 2
+    comments: 1
+    blanks: 0
+    files: 1
+  Html:
+    code: 1
+    comments: 1
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1652
+    blanks: 702
+    files: 13
+  Text:
+    code: 0
+    comments: 1
+    blanks: 0
+    files: 1
+total:
+  code: 6953
+  comments: 2823
+  blanks: 2008
+  files: 100
 ---
 date: "2026-08-24"
 repo:
