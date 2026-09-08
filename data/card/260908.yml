@@ -5,7 +5,7 @@ about:
   head: b00e451
   archived: false
   latestVersion: "v2.37.1"
-  collectedAt: 2026-09-08T01:43:57Z
+  collectedAt: 2026-09-08T03:27:41Z
 timeline:
   created: 2011-01-04
   lastCommit: 2026-03-31
@@ -86,7 +86,7 @@ total:
   commit: 1315
 ---
 path: /home/runner/.x-repo/github.com/direnv/direnv
-collectedAt: 2026-09-08T01:43:58Z
+collectedAt: 2026-09-08T03:27:42Z
 loc:
   Go:
     code: 4452

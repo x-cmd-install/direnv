@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 7899154,
       "digest": "sha256:4f569f3a36732bfd8b8fea7bfcc6ad87a59745c109022164d0ca4832451d5369",
-      "download_count": 62922,
+      "download_count": 62928,
       "created_at": "2025-07-20T10:35:30Z",
       "updated_at": "2025-07-20T10:35:30Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-arm64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 8151224,
       "digest": "sha256:1f1b93dd6f38523fde26dfac96151ef9d31a374e3005cd3345fb93555ae0c9b5",
-      "download_count": 1310300,
+      "download_count": 1310580,
       "created_at": "2025-07-20T10:35:31Z",
       "updated_at": "2025-07-20T10:35:32Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-amd64"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 7667896,
       "digest": "sha256:2a9cef8d73521d6a3ec3f2871c4b747b8c4cc038628c1b57a7efa42b393a2d82",
-      "download_count": 57123,
+      "download_count": 57164,
       "created_at": "2025-07-20T10:35:31Z",
       "updated_at": "2025-07-20T10:35:32Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm64"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 8418816,
       "digest": "sha256:d96fc8b7cf020c2d4c1dbbc2ccec5fd1cab05b51c491f02c8527a7fa6c50a1cd",
-      "download_count": 23197,
+      "download_count": 23199,
       "created_at": "2025-07-20T10:35:33Z",
       "updated_at": "2025-07-20T10:35:34Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64"
