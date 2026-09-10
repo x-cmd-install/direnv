@@ -12,6 +12,28 @@ unclutter your .profile
 x install direnv
 ```
 
+## 代码规模
+
+合计: **6,824** 行代码（覆盖前 5 种语言、共 **77** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 4,452 | 389 | 812 | 64 |
+| Sh | 1,287 | 662 | 240 | 6 |
+| PowerShell | 311 | 8 | 57 | 1 |
+| Bash | 276 | 52 | 80 | 5 |
+| Fish | 184 | 18 | 41 | 1 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **3 / 10**
+
+评分最低的几项:
+
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Packaging** (-1/10) — packaging workflow not detected
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/direnv/direnv>
@@ -23,6 +45,25 @@ x install direnv
 - **最新版本**: `v2.37.1` (2025-07-20)
 - **最近提交**: 2026-03-31
 - **Release 含资产**: 24 个
+
+## 流行度
+
+- **Star**: 15,433 · **Fork**: 821 · **开放 issue**: 808 · **贡献者**: 244
+
+## 累计统计
+
+- **发布数**: 64 · **已合并 PR**: 522 · **开放 PR**: 97 · **已关闭 issue**: 438 · **开放 issue**: 370 · **提交数**: 1315
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 5 | 0 | 4 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 9 | 0 | 11 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 14 | 0 | 13 | 0 |
+| last180d | 2026-03-14 | 0 | 1 | 29 | 0 | 21 | 1 |
+| 360d | 2025-09-15 | 0 | 8 | 53 | 1 | 40 | 8 |
+| last720d | 2024-09-20 | 4 | 76 | 69 | 21 | 85 | 160 |
 
 ## Release 资产
 
@@ -53,43 +94,24 @@ x install direnv
 | [direnv.windows-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64) | 8.0 MiB | `native/win/x64` |
 | [direnv.windows-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-arm64) | 7.4 MiB | `native/win/arm64` |
 
-## 流行度
+## 发行版状态
 
-- **Star**: 15,433 · **Fork**: 821 · **开放 issue**: 808 · **贡献者**: 244
+在 [repology.org](https://repology.org/project/direnv) 上共有 **115** 个发行版报告此项目。**52** 个 ✅ 已是最新上游版本，**54** 个 ⚠️ 使用旧版本。
 
-## 累计统计
-
-- **发布数**: 64 · **已合并 PR**: 522 · **开放 PR**: 97 · **已关闭 issue**: 438 · **开放 issue**: 370 · **提交数**: 1315
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 5 | 0 | 4 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 14 | 0 | 13 | 0 |
-| 360d | 2025-09-15 | 0 | 8 | 53 | 1 | 40 | 8 |
-
-## 代码规模
-
-合计: **6,824** 行代码（覆盖前 5 种语言、共 **77** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 4,452 | 389 | 812 | 64 |
-| Sh | 1,287 | 662 | 240 | 6 |
-| PowerShell | 311 | 8 | 57 | 1 |
-| Bash | 276 | 52 | 80 | 5 |
-| Fish | 184 | 18 | 41 | 1 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **3 / 10**
-
-评分最低的几项:
-
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Packaging** (-1/10) — packaging workflow not detected
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.37.1` | ✅ latest |
+| Debian 14 | `2.37.1` | ✅ latest |
+| Debian 13 | `2.32.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.37.1` | ✅ latest |
+| Ubuntu 24.04 LTS | `2.32.1` | ⚠️ outdated |
+| Arch | `2.37.1` | ✅ latest |
+| Homebrew | `2.37.1` | ✅ latest |
+| Fedora rawhide | `2.37.1` | ✅ latest |
+| Nix unstable | `2.37.1` | ✅ latest |
+| Void | `2.37.1` | ✅ latest |
+| Alpine edge | `2.37.1` | ✅ latest |
+| openSUSE Tumbleweed | `2.37.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -100,4 +122,4 @@ direnv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T15:57:46Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:22:01Z._
