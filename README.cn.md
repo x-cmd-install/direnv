@@ -4,7 +4,7 @@
 
 unclutter your .profile
 
-![direnv](https://repo.x-cmd.io/direnv.svg)
+![direnv](https://repo.x-cmd.io/direnv.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,39 @@ x install direnv
 - **最新版本**: `v2.37.1` (2025-07-20)
 - **最近提交**: 2026-03-31
 - **Release 含资产**: 24 个
-- **发布时间**: 2025-07-20T10:35:29Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [direnv.darwin-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-amd64) | 8.0 MiB | `native/darwin/x64` |
+| [direnv.darwin-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-arm64) | 7.5 MiB | `native/darwin/arm64` |
+| [direnv.freebsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-386) | 7.4 MiB | `other` |
+| [direnv.freebsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-amd64) | 7.8 MiB | `other` |
+| [direnv.freebsd-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-arm) | 7.5 MiB | `other` |
+| [direnv.linux-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-386) | 7.5 MiB | `other` |
+| [direnv.linux-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-amd64) | 7.8 MiB | `native/linux/x64` |
+| [direnv.linux-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm) | 7.5 MiB | `native/linux/arm` |
+| [direnv.linux-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm64) | 7.3 MiB | `native/linux/arm64` |
+| [direnv.linux-mips](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips) | 8.5 MiB | `other` |
+| [direnv.linux-mips64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips64) | 8.5 MiB | `other` |
+| [direnv.linux-mips64le](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips64le) | 8.4 MiB | `other` |
+| [direnv.linux-mipsle](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mipsle) | 8.5 MiB | `other` |
+| [direnv.linux-ppc64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64) | 7.6 MiB | `other` |
+| [direnv.linux-ppc64le](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64le) | 7.6 MiB | `other` |
+| [direnv.linux-s390x](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-s390x) | 8.2 MiB | `other` |
+| [direnv.netbsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-386) | 7.4 MiB | `other` |
+| [direnv.netbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-amd64) | 7.7 MiB | `other` |
+| [direnv.netbsd-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-arm) | 7.5 MiB | `other` |
+| [direnv.openbsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.openbsd-386) | 7.4 MiB | `other` |
+| [direnv.openbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.openbsd-amd64) | 7.8 MiB | `other` |
+| [direnv.windows-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-386) | 7.7 MiB | `native/win/x64` |
+| [direnv.windows-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64) | 8.0 MiB | `native/win/x64` |
+| [direnv.windows-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-arm64) | 7.4 MiB | `native/win/arm64` |
 
 ## 流行度
 
-- **Star**: 15,432 · **Fork**: 821 · **开放 issue**: 808 · **贡献者**: 244
+- **Star**: 15,433 · **Fork**: 821 · **开放 issue**: 808 · **贡献者**: 244
 
 ## 累计统计
 
@@ -72,4 +100,4 @@ direnv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T02:52:11Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:57:46Z._

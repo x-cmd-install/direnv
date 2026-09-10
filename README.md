@@ -23,11 +23,39 @@ x install direnv
 - **Latest**: `v2.37.1` (2025-07-20)
 - **Last commit**: 2026-03-31
 - **Assets in release**: 24
-- **Published**: 2025-07-20T10:35:29Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [direnv.darwin-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-amd64) | 8.0 MiB | `native/darwin/x64` |
+| [direnv.darwin-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-arm64) | 7.5 MiB | `native/darwin/arm64` |
+| [direnv.freebsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-386) | 7.4 MiB | `other` |
+| [direnv.freebsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-amd64) | 7.8 MiB | `other` |
+| [direnv.freebsd-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-arm) | 7.5 MiB | `other` |
+| [direnv.linux-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-386) | 7.5 MiB | `other` |
+| [direnv.linux-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-amd64) | 7.8 MiB | `native/linux/x64` |
+| [direnv.linux-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm) | 7.5 MiB | `native/linux/arm` |
+| [direnv.linux-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm64) | 7.3 MiB | `native/linux/arm64` |
+| [direnv.linux-mips](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips) | 8.5 MiB | `other` |
+| [direnv.linux-mips64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips64) | 8.5 MiB | `other` |
+| [direnv.linux-mips64le](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips64le) | 8.4 MiB | `other` |
+| [direnv.linux-mipsle](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mipsle) | 8.5 MiB | `other` |
+| [direnv.linux-ppc64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64) | 7.6 MiB | `other` |
+| [direnv.linux-ppc64le](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64le) | 7.6 MiB | `other` |
+| [direnv.linux-s390x](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-s390x) | 8.2 MiB | `other` |
+| [direnv.netbsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-386) | 7.4 MiB | `other` |
+| [direnv.netbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-amd64) | 7.7 MiB | `other` |
+| [direnv.netbsd-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-arm) | 7.5 MiB | `other` |
+| [direnv.openbsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.openbsd-386) | 7.4 MiB | `other` |
+| [direnv.openbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.openbsd-amd64) | 7.8 MiB | `other` |
+| [direnv.windows-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-386) | 7.7 MiB | `native/win/x64` |
+| [direnv.windows-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64) | 8.0 MiB | `native/win/x64` |
+| [direnv.windows-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-arm64) | 7.4 MiB | `native/win/arm64` |
 
 ## Popularity
 
-- **Stars**: 15,432 · **Forks**: 821 · **Open issues**: 808 · **Contributors**: 244
+- **Stars**: 15,433 · **Forks**: 821 · **Open issues**: 808 · **Contributors**: 244
 
 ## Totals (cumulative)
 
@@ -68,8 +96,8 @@ Lowest-scoring checks:
 Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `direnv` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/direnv.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/direnv.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T02:52:10Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:57:45Z._
