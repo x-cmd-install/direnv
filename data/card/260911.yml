@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.37.1"
   latestRelease: "v2.37.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T02:45:46Z
+  collectedAt: 2026-09-11T20:49:01Z
 timeline:
   created: 2011-01-04
   lastCommit: 2026-03-31
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-07-20
   lastPrerelease: 
 popularity:
-  star: 15434
+  star: 15437
   watcher: 84
   fork: 821
   release: 64
@@ -90,7 +90,7 @@ total:
   commit: 1315
 ---
 path: /home/runner/.x-repo/github.com/direnv/direnv
-collectedAt: 2026-09-11T02:45:47Z
+collectedAt: 2026-09-11T20:49:03Z
 loc:
   Go:
     code: 4452
