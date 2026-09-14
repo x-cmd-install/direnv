@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,439 · **Forks**: 821 · **Open issues**: 808 · **Contributors**: 244
+- **Stars**: 15,444 · **Forks**: 821 · **Open issues**: 808 · **Contributors**: 244
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 6 | 0 | 4 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 10 | 0 | 11 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 15 | 0 | 13 | 0 |
-| last180d | 2026-03-17 | 0 | 1 | 29 | 0 | 21 | 1 |
-| 360d | 2025-09-18 | 0 | 8 | 53 | 1 | 40 | 8 |
-| last720d | 2024-09-23 | 4 | 74 | 70 | 21 | 85 | 160 |
+| 30d | 2026-08-15 | 0 | 0 | 6 | 0 | 4 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 10 | 0 | 11 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 14 | 0 | 13 | 0 |
+| last180d | 2026-03-18 | 0 | 1 | 28 | 0 | 21 | 1 |
+| 360d | 2025-09-19 | 0 | 8 | 53 | 1 | 40 | 8 |
+| last720d | 2024-09-24 | 4 | 74 | 70 | 21 | 84 | 158 |
 
 ## Release assets
 
@@ -94,25 +94,6 @@ Lowest-scoring checks:
 | [direnv.windows-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64) | 8.0 MiB | `native/win/x64` |
 | [direnv.windows-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-arm64) | 7.4 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **115** distros on [repology.org](https://repology.org/project/direnv). **52** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.37.1` | ✅ latest |
-| Debian 14 | `2.37.1` | ✅ latest |
-| Debian 13 | `2.32.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.37.1` | ✅ latest |
-| Ubuntu 24.04 LTS | `2.32.1` | ⚠️ outdated |
-| Arch | `2.37.1` | ✅ latest |
-| Homebrew | `2.37.1` | ✅ latest |
-| Fedora rawhide | `2.37.1` | ✅ latest |
-| Nix unstable | `2.37.1` | ✅ latest |
-| Void | `2.37.1` | ✅ latest |
-| Alpine edge | `2.37.1` | ✅ latest |
-| openSUSE Tumbleweed | `2.37.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `direnv` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -122,4 +103,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T02:54:02Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T03:07:55Z._
