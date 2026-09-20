@@ -4,7 +4,7 @@
 
 unclutter your .profile
 
-![direnv](https://repo.x-cmd.io/direnv.svg)
+[![x-cmd/install — direnv Code Quality Monitoring Repo Card](https://repo.x-cmd.io/direnv.svg)](https://x-cmd.com/install/direnv)
 
 ## Install
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,451 · **Forks**: 821 · **Open issues**: 808 · **Contributors**: 244
+- **Stars**: 15,454 · **Forks**: 820 · **Open issues**: 808 · **Contributors**: 244
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 4 | 0 | 3 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 10 | 0 | 10 | 0 |
-| 90d | 2026-06-20 | 0 | 0 | 13 | 0 | 13 | 0 |
-| last180d | 2026-03-22 | 0 | 1 | 26 | 0 | 20 | 1 |
-| 360d | 2025-09-23 | 0 | 8 | 53 | 1 | 40 | 8 |
-| last720d | 2024-09-28 | 4 | 74 | 69 | 21 | 84 | 158 |
+| 30d | 2026-08-21 | 0 | 0 | 4 | 0 | 2 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 10 | 0 | 10 | 0 |
+| 90d | 2026-06-22 | 0 | 0 | 13 | 0 | 13 | 0 |
+| last180d | 2026-03-24 | 0 | 1 | 26 | 0 | 19 | 1 |
+| 360d | 2025-09-25 | 0 | 8 | 53 | 1 | 40 | 8 |
+| last720d | 2024-09-30 | 4 | 73 | 69 | 21 | 84 | 158 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T02:57:59Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T03:08:26Z._
