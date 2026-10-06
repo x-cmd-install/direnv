@@ -14,15 +14,15 @@ x install direnv
 
 ## Code insight
 
-Total: **6,824** lines of code across **77** files in the top 5 languages.
+Total: **7,232** lines of code across **81** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 4,452 | 389 | 812 | 64 |
-| Sh | 1,287 | 662 | 240 | 6 |
+| Go | 4,752 | 397 | 838 | 67 |
+| Sh | 1,331 | 671 | 249 | 6 |
 | PowerShell | 311 | 8 | 57 | 1 |
-| Bash | 276 | 52 | 80 | 5 |
-| Fish | 184 | 18 | 41 | 1 |
+| Bash | 297 | 56 | 85 | 5 |
+| Fish | 209 | 21 | 47 | 2 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.37.1` (2025-07-20)
-- **Last commit**: 2026-03-31
+- **Last commit**: 2026-10-06
 - **Assets in release**: 24
 
 ## Popularity
 
-- **Stars**: 15,486 · **Forks**: 821 · **Open issues**: 808 · **Contributors**: 244
+- **Stars**: 15,488 · **Forks**: 821 · **Open issues**: 808 · **Contributors**: 264
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 522 · **Open PRs**: 98 · **Closed issues**: 438 · **Open issues**: 370 · **Commits**: 1315
+- **Releases**: 64 · **Merged PRs**: 548 · **Open PRs**: 68 · **Closed issues**: 445 · **Open issues**: 363 · **Commits**: 1386
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-08-06 | 0 | 0 | 6 | 0 | 4 | 0 |
-| 90d | 2026-07-07 | 0 | 0 | 11 | 0 | 12 | 0 |
-| last180d | 2026-04-08 | 0 | 0 | 23 | 0 | 15 | 0 |
-| 360d | 2025-10-10 | 0 | 8 | 50 | 1 | 38 | 8 |
-| last720d | 2024-10-15 | 3 | 70 | 69 | 19 | 82 | 155 |
+| 30d | 2026-09-06 | 0 | 4 | 0 | 1 | 0 | 5 |
+| last60d | 2026-08-07 | 0 | 6 | 1 | 3 | 1 | 8 |
+| 90d | 2026-07-08 | 0 | 9 | 3 | 4 | 8 | 11 |
+| last180d | 2026-04-09 | 0 | 12 | 11 | 4 | 11 | 14 |
+| 360d | 2025-10-11 | 0 | 33 | 21 | 7 | 32 | 44 |
+| last720d | 2024-10-16 | 3 | 96 | 39 | 26 | 74 | 226 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T03:48:40Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T04:36:49Z._
