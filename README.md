@@ -14,15 +14,15 @@ x install direnv
 
 ## Code insight
 
-Total: **7,232** lines of code across **81** files in the top 5 languages.
+Total: **7,816** lines of code across **83** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 4,752 | 397 | 838 | 67 |
-| Sh | 1,331 | 671 | 249 | 6 |
+| Go | 5,055 | 411 | 868 | 68 |
+| Sh | 1,458 | 687 | 266 | 6 |
+| Bash | 383 | 66 | 102 | 5 |
 | PowerShell | 311 | 8 | 57 | 1 |
-| Bash | 297 | 56 | 85 | 5 |
-| Fish | 209 | 21 | 47 | 2 |
+| Nix | 242 | 13 | 25 | 3 |
 
 ## OpenSSF Scorecard
 
@@ -42,57 +42,57 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.37.1` (2025-07-20)
+- **Latest**: `v2.38.1` (2026-10-06)
 - **Last commit**: 2026-10-06
 - **Assets in release**: 24
 
 ## Popularity
 
-- **Stars**: 15,488 · **Forks**: 821 · **Open issues**: 808 · **Contributors**: 264
+- **Stars**: 15,492 · **Forks**: 820 · **Open issues**: 808 · **Contributors**: 277
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 548 · **Open PRs**: 68 · **Closed issues**: 445 · **Open issues**: 363 · **Commits**: 1386
+- **Releases**: 65 · **Merged PRs**: 574 · **Open PRs**: 27 · **Closed issues**: 508 · **Open issues**: 300 · **Commits**: 1474
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 4 | 0 | 1 | 0 | 5 |
-| last60d | 2026-08-07 | 0 | 6 | 1 | 3 | 1 | 8 |
-| 90d | 2026-07-08 | 0 | 9 | 3 | 4 | 8 | 11 |
-| last180d | 2026-04-09 | 0 | 12 | 11 | 4 | 11 | 14 |
-| 360d | 2025-10-11 | 0 | 33 | 21 | 7 | 32 | 44 |
-| last720d | 2024-10-16 | 3 | 96 | 39 | 26 | 74 | 226 |
+| 30d | 2026-09-07 | 1 | 12 | 1 | 0 | 0 | 27 |
+| last60d | 2026-08-08 | 1 | 15 | 1 | 4 | 0 | 32 |
+| 90d | 2026-07-09 | 1 | 20 | 1 | 8 | 4 | 36 |
+| last180d | 2026-04-10 | 1 | 28 | 3 | 9 | 5 | 48 |
+| 360d | 2025-10-12 | 1 | 52 | 6 | 23 | 16 | 81 |
+| last720d | 2024-10-17 | 4 | 121 | 13 | 54 | 46 | 313 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [direnv.darwin-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-amd64) | 8.0 MiB | `native/darwin/x64` |
-| [direnv.darwin-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-arm64) | 7.5 MiB | `native/darwin/arm64` |
-| [direnv.freebsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-386) | 7.4 MiB | `other` |
-| [direnv.freebsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-amd64) | 7.8 MiB | `other` |
-| [direnv.freebsd-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-arm) | 7.5 MiB | `other` |
-| [direnv.linux-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-386) | 7.5 MiB | `other` |
-| [direnv.linux-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-amd64) | 7.8 MiB | `native/linux/x64` |
-| [direnv.linux-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm) | 7.5 MiB | `native/linux/arm` |
-| [direnv.linux-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm64) | 7.3 MiB | `native/linux/arm64` |
-| [direnv.linux-mips](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips) | 8.5 MiB | `other` |
-| [direnv.linux-mips64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips64) | 8.5 MiB | `other` |
-| [direnv.linux-mips64le](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips64le) | 8.4 MiB | `other` |
-| [direnv.linux-mipsle](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mipsle) | 8.5 MiB | `other` |
-| [direnv.linux-ppc64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64) | 7.6 MiB | `other` |
-| [direnv.linux-ppc64le](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64le) | 7.6 MiB | `other` |
-| [direnv.linux-s390x](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-s390x) | 8.2 MiB | `other` |
-| [direnv.netbsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-386) | 7.4 MiB | `other` |
-| [direnv.netbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-amd64) | 7.7 MiB | `other` |
-| [direnv.netbsd-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-arm) | 7.5 MiB | `other` |
-| [direnv.openbsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.openbsd-386) | 7.4 MiB | `other` |
-| [direnv.openbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.openbsd-amd64) | 7.8 MiB | `other` |
-| [direnv.windows-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-386) | 7.7 MiB | `native/win/x64` |
-| [direnv.windows-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64) | 8.0 MiB | `native/win/x64` |
-| [direnv.windows-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-arm64) | 7.4 MiB | `native/win/arm64` |
+| [direnv.darwin-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.darwin-amd64) | 8.3 MiB | `native/darwin/x64` |
+| [direnv.darwin-arm64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.darwin-arm64) | 7.7 MiB | `native/darwin/arm64` |
+| [direnv.freebsd-386](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-386) | 7.8 MiB | `other` |
+| [direnv.freebsd-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-amd64) | 8.1 MiB | `other` |
+| [direnv.freebsd-arm](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-arm) | 7.8 MiB | `other` |
+| [direnv.linux-386](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-386) | 7.9 MiB | `other` |
+| [direnv.linux-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-amd64) | 8.2 MiB | `native/linux/x64` |
+| [direnv.linux-arm](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-arm) | 7.9 MiB | `native/linux/arm` |
+| [direnv.linux-arm64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-arm64) | 7.6 MiB | `native/linux/arm64` |
+| [direnv.linux-mips](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-mips) | 8.9 MiB | `other` |
+| [direnv.linux-mips64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-mips64) | 8.9 MiB | `other` |
+| [direnv.linux-mips64le](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-mips64le) | 8.9 MiB | `other` |
+| [direnv.linux-mipsle](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-mipsle) | 8.9 MiB | `other` |
+| [direnv.linux-ppc64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-ppc64) | 8.0 MiB | `other` |
+| [direnv.linux-ppc64le](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-ppc64le) | 8.0 MiB | `other` |
+| [direnv.linux-s390x](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-s390x) | 8.4 MiB | `other` |
+| [direnv.netbsd-386](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.netbsd-386) | 7.7 MiB | `other` |
+| [direnv.netbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.netbsd-amd64) | 8.1 MiB | `other` |
+| [direnv.netbsd-arm](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.netbsd-arm) | 7.8 MiB | `other` |
+| [direnv.openbsd-386](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.openbsd-386) | 7.8 MiB | `other` |
+| [direnv.openbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.openbsd-amd64) | 8.1 MiB | `other` |
+| [direnv.windows-386.exe](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-386.exe) | 8.1 MiB | `native/win/x64` |
+| [direnv.windows-amd64.exe](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-amd64.exe) | 8.4 MiB | `native/win/x64` |
+| [direnv.windows-arm64.exe](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-arm64.exe) | 7.7 MiB | `native/win/arm64` |
 
 ## Improve this data
 
@@ -103,4 +103,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T04:36:49Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T04:02:42Z._

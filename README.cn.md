@@ -14,15 +14,15 @@ x install direnv
 
 ## 代码洞察
 
-合计: **7,232** 行代码（覆盖前 5 种语言、共 **81** 个文件）。
+合计: **7,816** 行代码（覆盖前 5 种语言、共 **83** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 4,752 | 397 | 838 | 67 |
-| Sh | 1,331 | 671 | 249 | 6 |
+| Go | 5,055 | 411 | 868 | 68 |
+| Sh | 1,458 | 687 | 266 | 6 |
+| Bash | 383 | 66 | 102 | 5 |
 | PowerShell | 311 | 8 | 57 | 1 |
-| Bash | 297 | 56 | 85 | 5 |
-| Fish | 209 | 21 | 47 | 2 |
+| Nix | 242 | 13 | 25 | 3 |
 
 ## OpenSSF Scorecard 评分
 
@@ -42,57 +42,57 @@ x install direnv
 
 ## 发布
 
-- **最新版本**: `v2.37.1` (2025-07-20)
+- **最新版本**: `v2.38.1` (2026-10-06)
 - **最近提交**: 2026-10-06
 - **Release 含资产**: 24 个
 
 ## 流行度
 
-- **Star**: 15,488 · **Fork**: 821 · **开放 issue**: 808 · **贡献者**: 264
+- **Star**: 15,492 · **Fork**: 820 · **开放 issue**: 808 · **贡献者**: 277
 
 ## 累计统计
 
-- **发布数**: 64 · **已合并 PR**: 548 · **开放 PR**: 68 · **已关闭 issue**: 445 · **开放 issue**: 363 · **提交数**: 1386
+- **发布数**: 65 · **已合并 PR**: 574 · **开放 PR**: 27 · **已关闭 issue**: 508 · **开放 issue**: 300 · **提交数**: 1474
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 4 | 0 | 1 | 0 | 5 |
-| last60d | 2026-08-07 | 0 | 6 | 1 | 3 | 1 | 8 |
-| 90d | 2026-07-08 | 0 | 9 | 3 | 4 | 8 | 11 |
-| last180d | 2026-04-09 | 0 | 12 | 11 | 4 | 11 | 14 |
-| 360d | 2025-10-11 | 0 | 33 | 21 | 7 | 32 | 44 |
-| last720d | 2024-10-16 | 3 | 96 | 39 | 26 | 74 | 226 |
+| 30d | 2026-09-07 | 1 | 12 | 1 | 0 | 0 | 27 |
+| last60d | 2026-08-08 | 1 | 15 | 1 | 4 | 0 | 32 |
+| 90d | 2026-07-09 | 1 | 20 | 1 | 8 | 4 | 36 |
+| last180d | 2026-04-10 | 1 | 28 | 3 | 9 | 5 | 48 |
+| 360d | 2025-10-12 | 1 | 52 | 6 | 23 | 16 | 81 |
+| last720d | 2024-10-17 | 4 | 121 | 13 | 54 | 46 | 313 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [direnv.darwin-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-amd64) | 8.0 MiB | `native/darwin/x64` |
-| [direnv.darwin-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-arm64) | 7.5 MiB | `native/darwin/arm64` |
-| [direnv.freebsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-386) | 7.4 MiB | `other` |
-| [direnv.freebsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-amd64) | 7.8 MiB | `other` |
-| [direnv.freebsd-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-arm) | 7.5 MiB | `other` |
-| [direnv.linux-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-386) | 7.5 MiB | `other` |
-| [direnv.linux-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-amd64) | 7.8 MiB | `native/linux/x64` |
-| [direnv.linux-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm) | 7.5 MiB | `native/linux/arm` |
-| [direnv.linux-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm64) | 7.3 MiB | `native/linux/arm64` |
-| [direnv.linux-mips](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips) | 8.5 MiB | `other` |
-| [direnv.linux-mips64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips64) | 8.5 MiB | `other` |
-| [direnv.linux-mips64le](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mips64le) | 8.4 MiB | `other` |
-| [direnv.linux-mipsle](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-mipsle) | 8.5 MiB | `other` |
-| [direnv.linux-ppc64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64) | 7.6 MiB | `other` |
-| [direnv.linux-ppc64le](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64le) | 7.6 MiB | `other` |
-| [direnv.linux-s390x](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-s390x) | 8.2 MiB | `other` |
-| [direnv.netbsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-386) | 7.4 MiB | `other` |
-| [direnv.netbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-amd64) | 7.7 MiB | `other` |
-| [direnv.netbsd-arm](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.netbsd-arm) | 7.5 MiB | `other` |
-| [direnv.openbsd-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.openbsd-386) | 7.4 MiB | `other` |
-| [direnv.openbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.openbsd-amd64) | 7.8 MiB | `other` |
-| [direnv.windows-386](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-386) | 7.7 MiB | `native/win/x64` |
-| [direnv.windows-amd64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64) | 8.0 MiB | `native/win/x64` |
-| [direnv.windows-arm64](https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-arm64) | 7.4 MiB | `native/win/arm64` |
+| [direnv.darwin-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.darwin-amd64) | 8.3 MiB | `native/darwin/x64` |
+| [direnv.darwin-arm64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.darwin-arm64) | 7.7 MiB | `native/darwin/arm64` |
+| [direnv.freebsd-386](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-386) | 7.8 MiB | `other` |
+| [direnv.freebsd-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-amd64) | 8.1 MiB | `other` |
+| [direnv.freebsd-arm](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-arm) | 7.8 MiB | `other` |
+| [direnv.linux-386](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-386) | 7.9 MiB | `other` |
+| [direnv.linux-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-amd64) | 8.2 MiB | `native/linux/x64` |
+| [direnv.linux-arm](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-arm) | 7.9 MiB | `native/linux/arm` |
+| [direnv.linux-arm64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-arm64) | 7.6 MiB | `native/linux/arm64` |
+| [direnv.linux-mips](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-mips) | 8.9 MiB | `other` |
+| [direnv.linux-mips64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-mips64) | 8.9 MiB | `other` |
+| [direnv.linux-mips64le](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-mips64le) | 8.9 MiB | `other` |
+| [direnv.linux-mipsle](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-mipsle) | 8.9 MiB | `other` |
+| [direnv.linux-ppc64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-ppc64) | 8.0 MiB | `other` |
+| [direnv.linux-ppc64le](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-ppc64le) | 8.0 MiB | `other` |
+| [direnv.linux-s390x](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-s390x) | 8.4 MiB | `other` |
+| [direnv.netbsd-386](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.netbsd-386) | 7.7 MiB | `other` |
+| [direnv.netbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.netbsd-amd64) | 8.1 MiB | `other` |
+| [direnv.netbsd-arm](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.netbsd-arm) | 7.8 MiB | `other` |
+| [direnv.openbsd-386](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.openbsd-386) | 7.8 MiB | `other` |
+| [direnv.openbsd-amd64](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.openbsd-amd64) | 8.1 MiB | `other` |
+| [direnv.windows-386.exe](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-386.exe) | 8.1 MiB | `native/win/x64` |
+| [direnv.windows-amd64.exe](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-amd64.exe) | 8.4 MiB | `native/win/x64` |
+| [direnv.windows-arm64.exe](https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-arm64.exe) | 7.7 MiB | `native/win/arm64` |
 
 ## 改进这些数据
 
@@ -103,4 +103,4 @@ direnv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261006.yml` · 2026-10-06T04:36:50Z._
+_数据快照: `data/card/261007.yml` · 2026-10-07T04:02:43Z._
