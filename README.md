@@ -14,12 +14,12 @@ x install direnv
 
 ## Code insight
 
-Total: **7,816** lines of code across **83** files in the top 5 languages.
+Total: **7,893** lines of code across **84** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 5,055 | 411 | 868 | 68 |
-| Sh | 1,458 | 687 | 266 | 6 |
+| Go | 5,095 | 414 | 872 | 69 |
+| Sh | 1,467 | 688 | 269 | 6 |
 | Bash | 383 | 66 | 102 | 5 |
 | PowerShell | 311 | 8 | 57 | 1 |
 | Nix | 242 | 13 | 25 | 3 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.38.1` (2026-10-06)
-- **Last commit**: 2026-10-06
+- **Last commit**: 2026-10-10
 - **Assets in release**: 24
 
 ## Popularity
 
-- **Stars**: 15,496 · **Forks**: 821 · **Open issues**: 809 · **Contributors**: 277
+- **Stars**: 15,497 · **Forks**: 821 · **Open issues**: 810 · **Contributors**: 278
 
 ## Totals (cumulative)
 
-- **Releases**: 65 · **Merged PRs**: 574 · **Open PRs**: 28 · **Closed issues**: 508 · **Open issues**: 301 · **Commits**: 1474
+- **Releases**: 65 · **Merged PRs**: 578 · **Open PRs**: 26 · **Closed issues**: 510 · **Open issues**: 300 · **Commits**: 1484
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-09 | 1 | 11 | 2 | 0 | 1 | 27 |
-| last60d | 2026-08-10 | 1 | 15 | 2 | 4 | 1 | 32 |
-| 90d | 2026-07-11 | 1 | 19 | 2 | 7 | 5 | 36 |
-| last180d | 2026-04-12 | 1 | 28 | 4 | 9 | 6 | 48 |
-| 360d | 2025-10-14 | 1 | 51 | 7 | 23 | 17 | 81 |
-| last720d | 2024-10-19 | 4 | 121 | 14 | 54 | 47 | 313 |
+| 30d | 2026-09-10 | 1 | 15 | 0 | 2 | 0 | 33 |
+| last60d | 2026-08-11 | 1 | 19 | 0 | 6 | 0 | 38 |
+| 90d | 2026-07-12 | 1 | 23 | 0 | 9 | 4 | 42 |
+| last180d | 2026-04-13 | 1 | 32 | 2 | 11 | 5 | 54 |
+| 360d | 2025-10-15 | 1 | 54 | 5 | 25 | 16 | 87 |
+| last720d | 2024-10-20 | 4 | 125 | 12 | 56 | 46 | 323 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261009.yml` · 2026-10-09T04:20:39Z._
+_Snapshot: `data/card/261010.yml` · 2026-10-10T04:05:49Z._
