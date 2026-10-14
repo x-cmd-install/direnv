@@ -26,12 +26,12 @@ x install direnv
 
 ## OpenSSF Scorecard 评分
 
-总评分: **2.9 / 10**
+总评分: **3.5 / 10**
 
 评分最低的几项:
 
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (4/10) — Found 6/13 approved changesets -- score normalized to 4
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 
 ## 源代码
@@ -48,22 +48,22 @@ x install direnv
 
 ## 流行度
 
-- **Star**: 15,498 · **Fork**: 821 · **开放 issue**: 812 · **贡献者**: 279
+- **Star**: 15,501 · **Fork**: 825 · **开放 issue**: 812 · **贡献者**: 279
 
 ## 累计统计
 
-- **发布数**: 66 · **已合并 PR**: 579 · **开放 PR**: 31 · **已关闭 issue**: 510 · **开放 issue**: 302 · **提交数**: 1486
+- **发布数**: 66 · **已合并 PR**: 579 · **开放 PR**: 33 · **已关闭 issue**: 510 · **开放 issue**: 302 · **提交数**: 1486
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 2 | 15 | 5 | 2 | 2 | 33 |
-| last60d | 2026-08-14 | 2 | 20 | 5 | 6 | 2 | 36 |
-| 90d | 2026-07-15 | 2 | 24 | 5 | 9 | 6 | 43 |
-| last180d | 2026-04-16 | 2 | 33 | 7 | 11 | 7 | 54 |
-| 360d | 2025-10-18 | 2 | 55 | 10 | 25 | 18 | 87 |
-| last720d | 2024-10-23 | 5 | 126 | 17 | 56 | 48 | 325 |
+| 30d | 2026-09-14 | 2 | 15 | 7 | 2 | 2 | 33 |
+| last60d | 2026-08-15 | 2 | 20 | 7 | 6 | 2 | 36 |
+| 90d | 2026-07-16 | 2 | 24 | 7 | 9 | 6 | 43 |
+| last180d | 2026-04-17 | 2 | 32 | 9 | 11 | 7 | 54 |
+| 360d | 2025-10-19 | 2 | 55 | 12 | 25 | 18 | 87 |
+| last720d | 2024-10-24 | 5 | 126 | 19 | 56 | 48 | 325 |
 
 ## Release 资产
 
@@ -103,4 +103,4 @@ direnv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261013.yml` · 2026-10-13T05:14:24Z._
+_数据快照: `data/card/261014.yml` · 2026-10-14T03:20:12Z._
