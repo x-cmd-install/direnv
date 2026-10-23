@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,512 · **Forks**: 854 · **Open issues**: 813 · **Contributors**: 279
+- **Stars**: 15,514 · **Forks**: 837 · **Open issues**: 814 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 66 · **Merged PRs**: 579 · **Open PRs**: 38 · **Closed issues**: 510 · **Open issues**: 303 · **Commits**: 1486
+- **Releases**: 66 · **Merged PRs**: 579 · **Open PRs**: 43 · **Closed issues**: 510 · **Open issues**: 304 · **Commits**: 1486
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 2 | 15 | 12 | 2 | 3 | 32 |
-| last60d | 2026-08-23 | 2 | 18 | 12 | 4 | 3 | 36 |
-| 90d | 2026-07-24 | 2 | 22 | 12 | 7 | 5 | 41 |
-| last180d | 2026-04-25 | 2 | 31 | 14 | 11 | 8 | 53 |
-| 360d | 2025-10-27 | 2 | 54 | 17 | 24 | 19 | 87 |
-| last720d | 2024-11-01 | 5 | 124 | 24 | 56 | 49 | 323 |
+| 30d | 2026-09-23 | 2 | 14 | 17 | 2 | 4 | 32 |
+| last60d | 2026-08-24 | 2 | 18 | 17 | 4 | 4 | 36 |
+| 90d | 2026-07-25 | 2 | 22 | 17 | 6 | 6 | 41 |
+| last180d | 2026-04-26 | 2 | 31 | 19 | 11 | 9 | 53 |
+| 360d | 2025-10-28 | 2 | 54 | 22 | 24 | 19 | 87 |
+| last720d | 2024-11-02 | 5 | 124 | 29 | 56 | 50 | 323 |
 
 ## Release assets
 
@@ -94,6 +94,25 @@ Lowest-scoring checks:
 | [direnv.windows-amd64.exe](https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.windows-amd64.exe) | 8.4 MiB | `native/win/x64` |
 | [direnv.windows-arm64.exe](https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.windows-arm64.exe) | 7.7 MiB | `native/win/arm64` |
 
+## Distribution status
+
+Reported by **113** distros on [repology.org](https://repology.org/project/direnv). **11** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.37.1` | ⚠️ outdated |
+| Debian 14 | `2.37.1` | ⚠️ outdated |
+| Debian 13 | `2.32.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.37.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.32.1` | ⚠️ outdated |
+| Arch | `2.38.2` | ✅ latest |
+| Homebrew | `2.38.2` | ✅ latest |
+| Fedora rawhide | `2.37.1` | ⚠️ outdated |
+| Nix unstable | `2.38.2` | ✅ latest |
+| Void | `2.37.1` | ⚠️ outdated |
+| Alpine edge | `2.37.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.37.1` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `direnv` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -103,4 +122,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T03:05:11Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T03:09:31Z._
