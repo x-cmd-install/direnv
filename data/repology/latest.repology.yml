@@ -1,142 +1,29 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
   srcname: direnv
   binnames:
     - direnv
   visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
+  version: 2.15.0
+  origversion: 2.15.0-1
   status: outdated
   maintainers:
     - punit@debian.org
   categories:
-    - misc
-- repo: gnuguix
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: null
-  status: outdated
-  summary: Environment switcher for the shell
-- repo: pardus_21
-  subrepo: main
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
   srcname: direnv
   binnames:
     - direnv
   visiblename: direnv
-  version: 2.25.2
-  origversion: 2.25.2-2
+  version: 2.21.2
+  origversion: 2.21.2-1
   status: outdated
   maintainers:
     - punit@debian.org
   categories:
-    - misc
-- repo: nix_stable_25_05
-  srcname: direnv
-  visiblename: direnv
-  version: 2.36.0
-  origversion: null
-  status: outdated
-  summary: Shell extension that manages your environment
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: null
-  status: outdated
-  summary: Shell extension that manages your environment
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: pld
-  srcname: direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.18.2
-  origversion: 2.18.2-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.25.2
-  origversion: 2.25.2-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
-- repo: aosc
-  srcname: app-utils/direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
-  status: outdated
-  summary: Tool for load and unload environment variables depending on the current directory
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
+    - universe/misc
 - repo: alpine_3_17
   subrepo: community
   srcname: direnv
@@ -358,6 +245,17 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
+- repo: stalix
+  srcname: bin/dir/env
+  binname: bin/dir/env
+  visiblename: bin/dir/env
+  version: 2.38.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_22
   subrepo: community
   srcname: direnv
@@ -369,17 +267,6 @@
   summary: configuration hooks for fish
   maintainers:
     - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.38.2
-  origversion: 2.38.2-1
-  status: newest
-  summary: A shell extension that manages your environment
   licenses:
     - MIT
 - repo: alpine_3_23
@@ -531,6 +418,29 @@
     - MIT
   categories:
     - Shells
+- repo: aosc
+  srcname: app-utils/direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
+  status: outdated
+  summary: Tool for load and unload environment variables depending on the current directory
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
+- repo: arch
+  subrepo: extra
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.38.2
+  origversion: 2.38.2-1
+  status: newest
+  summary: A shell extension that manages your environment
+  licenses:
+    - MIT
 - repo: chimera
   subrepo: user
   srcname: direnv
@@ -686,21 +596,6 @@
   categories:
     - app-shells
 - repo: fedora_39
-  subrepo: release
-  srcname: direnv
-  binnames:
-    - direnv
-    - golang-github-direnv-devel
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-6.fc39
-  status: legacy
-  summary: Per-directory shell configuration tool
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: direnv
   binnames:
@@ -715,17 +610,31 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_24_05
+- repo: termux
   srcname: direnv
+  binname: direnv
   visiblename: direnv
-  version: 2.34.0
+  version: 2.38.2
   origversion: null
-  status: outdated
-  summary: A shell extension that manages your environment
+  status: newest
+  summary: Environment switcher for shell
   maintainers:
-    - zimbatm@zimbatm.com
+    - termux@github
+- repo: fedora_39
+  subrepo: release
+  srcname: direnv
+  binnames:
+    - direnv
+    - golang-github-direnv-devel
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-6.fc39
+  status: legacy
+  summary: Per-directory shell configuration tool
   licenses:
     - MIT
+  categories:
+    - Unspecified
 - repo: fedora_40
   subrepo: release
   srcname: direnv
@@ -861,6 +770,17 @@
     - MIT
   categories:
     - app-shells
+- repo: stalix_dev
+  srcname: bin/dir/env
+  binname: bin/dir/env
+  visiblename: bin/dir/env
+  version: 2.38.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: gentoo_ovl_guru
   srcname: app-shells/direnv
   visiblename: app-shells/direnv
@@ -875,17 +795,14 @@
     - BSD
   categories:
     - app-shells
-- repo: nix_stable_24_11
+- repo: gnuguix
   srcname: direnv
+  binname: direnv
   visiblename: direnv
-  version: 2.35.0
+  version: 2.37.1
   origversion: null
   status: outdated
-  summary: Shell extension that manages your environment
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
+  summary: Environment switcher for the shell
 - repo: haikuports_master
   srcname: app-shells/direnv
   visiblename: app-shells/direnv
@@ -1051,6 +968,50 @@
   summary: A shell extension that manages your environment
   licenses:
     - MIT
+- repo: nix_stable_24_05
+  srcname: direnv
+  visiblename: direnv
+  version: 2.34.0
+  origversion: null
+  status: outdated
+  summary: A shell extension that manages your environment
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: direnv
+  visiblename: direnv
+  version: 2.35.0
+  origversion: null
+  status: outdated
+  summary: Shell extension that manages your environment
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: direnv
+  visiblename: direnv
+  version: 2.36.0
+  origversion: null
+  status: outdated
+  summary: Shell extension that manages your environment
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: null
+  status: outdated
+  summary: Shell extension that manages your environment
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: direnv
   visiblename: direnv
@@ -1128,6 +1089,19 @@
     - MIT
   categories:
     - Productivity/File utilities
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.7.0
+  origversion: 2.7.0-1
+  status: outdated
+  maintainers:
+    - punitagrawal@gmail.com
+  categories:
+    - universe/misc
 - repo: pacstall
   srcname: direnv-bin
   binname: direnv-bin
@@ -1149,8 +1123,21 @@
   summary: A shell extension that manages your environment
   licenses:
     - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.25.2
+  origversion: 2.25.2-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: direnv
   binnames:
     - direnv
@@ -1163,7 +1150,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: direnv
   binnames:
     - direnv
@@ -1211,6 +1198,90 @@
     - leot@netbsd.org
   categories:
     - sysutils
+- repo: pld
+  srcname: direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
+  status: outdated
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.18.2
+  origversion: 2.18.2-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - utils
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.25.2
+  origversion: 2.25.2-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: direnv
@@ -1242,77 +1313,6 @@
     - alecbcs@spack
   licenses:
     - MIT
-- repo: stalix
-  srcname: bin/dir/env
-  binname: bin/dir/env
-  visiblename: bin/dir/env
-  version: 2.38.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/dir/env
-  binname: bin/dir/env
-  visiblename: bin/dir/env
-  version: 2.38.2
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: termux
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.38.2
-  origversion: null
-  status: newest
-  summary: Environment switcher for shell
-  maintainers:
-    - termux@github
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.7.0
-  origversion: 2.7.0-1
-  status: outdated
-  maintainers:
-    - punitagrawal@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.15.0
-  origversion: 2.15.0-1
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.21.2
-  origversion: 2.21.2-1
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: direnv
@@ -1321,19 +1321,6 @@
   visiblename: direnv
   version: 2.25.2
   origversion: 2.25.2-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2build1
   status: outdated
   maintainers:
     - punit@debian.org
@@ -1350,6 +1337,19 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2build1
+  status: outdated
+  maintainers:
+    - punit@debian.org
   categories:
     - universe/misc
 - repo: ubuntu_25_04
