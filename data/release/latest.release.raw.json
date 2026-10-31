@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 8711696,
       "digest": "sha256:91ad9ce96e156065ba2c751a7392ee748fa8e49b063e14d7203df6e957c212f9",
-      "download_count": 451,
+      "download_count": 475,
       "created_at": "2026-10-10T08:41:23Z",
       "updated_at": "2026-10-10T08:41:24Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 8106530,
       "digest": "sha256:30443c413e74614a53deb90234e9c97661b1041a0f4aca601ceb482a578ae8b6",
-      "download_count": 3880,
+      "download_count": 4038,
       "created_at": "2026-10-10T08:41:23Z",
       "updated_at": "2026-10-10T08:41:24Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 8126636,
       "digest": "sha256:3bb02e00bc4b66b5276a3afd0beec1d34275a08ddd48052ef9c95377504fdafb",
-      "download_count": 66,
+      "download_count": 69,
       "created_at": "2026-10-10T08:41:23Z",
       "updated_at": "2026-10-10T08:41:24Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.freebsd-386"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 8487084,
       "digest": "sha256:3084f84d1f2f5695c75c152d5398e054e9cabbde28987847428fce83ecd99d77",
-      "download_count": 85,
+      "download_count": 88,
       "created_at": "2026-10-10T08:41:23Z",
       "updated_at": "2026-10-10T08:41:24Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.freebsd-amd64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 8192172,
       "digest": "sha256:2f6dfc4597762c324f9a733cbfbdbc20cb2dbbae1d46056c9782b57b50c3c8e0",
-      "download_count": 66,
+      "download_count": 69,
       "created_at": "2026-10-10T08:41:23Z",
       "updated_at": "2026-10-10T08:41:24Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.freebsd-arm"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 8261794,
       "digest": "sha256:04c2adf9fa8368034c43178351fe3ba6be95ade0c968aa81b1bf187da8f8b16d",
-      "download_count": 122,
+      "download_count": 128,
       "created_at": "2026-10-10T08:41:24Z",
       "updated_at": "2026-10-10T08:41:25Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-386"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 8548514,
       "digest": "sha256:148820a187930d36ca6a204504e5cdb30d8396cd1a97e64c3b3f10d793c11247",
-      "download_count": 66901,
+      "download_count": 70178,
       "created_at": "2026-10-10T08:41:24Z",
       "updated_at": "2026-10-10T08:41:25Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-amd64"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 8323234,
       "digest": "sha256:0a69c8acab3e8d37269381193a1fda46a5933a9dcc3ec1e5ffe719e4d364553f",
-      "download_count": 117,
+      "download_count": 121,
       "created_at": "2026-10-10T08:41:24Z",
       "updated_at": "2026-10-10T08:41:25Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-arm"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 7930018,
       "digest": "sha256:ec2a32dbe2f19dd085bd9315a1b4ea88b55ec288aa7eabe8723490baf466cb23",
-      "download_count": 5024,
+      "download_count": 5285,
       "created_at": "2026-10-10T08:41:24Z",
       "updated_at": "2026-10-10T08:41:25Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-arm64"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 9371810,
       "digest": "sha256:448ffec4cf02db753db60e1962c3d9bad616a7fbe8924e9093c1a82539bd01c3",
-      "download_count": 10,
+      "download_count": 11,
       "created_at": "2026-10-10T08:41:25Z",
       "updated_at": "2026-10-10T08:41:26Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-mips64"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 9371810,
       "digest": "sha256:25c129c59682367f08d28d3a352845a6fb43f2ceca0e95314da29e7388238b74",
-      "download_count": 6,
+      "download_count": 7,
       "created_at": "2026-10-10T08:41:25Z",
       "updated_at": "2026-10-10T08:41:26Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-mips64le"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 9371841,
       "digest": "sha256:1f41490d6331f4667991087a8142b218e963f0eb372ab8d79d1fc372e8abda2c",
-      "download_count": 7,
+      "download_count": 8,
       "created_at": "2026-10-10T08:41:25Z",
       "updated_at": "2026-10-10T08:41:26Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-mipsle"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 8388770,
       "digest": "sha256:2ad6173ae6c7ad0df7f32a7f31cf5e8a6abf8c83ba1ecbc4da5433bd909740dd",
-      "download_count": 62,
+      "download_count": 64,
       "created_at": "2026-10-10T08:41:25Z",
       "updated_at": "2026-10-10T08:41:26Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-ppc64"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 8388770,
       "digest": "sha256:458966341b43e243ca7f6d9f28cd2eddf0f8b6a91783620bf10683a36633182a",
-      "download_count": 63,
+      "download_count": 66,
       "created_at": "2026-10-10T08:41:26Z",
       "updated_at": "2026-10-10T08:41:26Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-ppc64le"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 8781986,
       "digest": "sha256:415410633be6b73db30f96a0118f07fd26aec45089099a78d61bf864ac69c0fa",
-      "download_count": 6,
+      "download_count": 7,
       "created_at": "2026-10-10T08:41:26Z",
       "updated_at": "2026-10-10T08:41:27Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.linux-s390x"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 8102069,
       "digest": "sha256:907a3fb410580ede8ee5206b29a6c3fa8a2eaa1dbdc25b184407be0ff7792acb",
-      "download_count": 64,
+      "download_count": 67,
       "created_at": "2026-10-10T08:41:26Z",
       "updated_at": "2026-10-10T08:41:27Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.netbsd-386"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 8462517,
       "digest": "sha256:740b1190e19d623091f71c253be190188f7c2ebf47ceb6dbe445e903aa77e95f",
-      "download_count": 64,
+      "download_count": 66,
       "created_at": "2026-10-10T08:41:26Z",
       "updated_at": "2026-10-10T08:41:27Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.netbsd-amd64"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 8192181,
       "digest": "sha256:a338a24eb7a440a06e21126a47615f2496eb0ef885ff89602c887eadfd922f84",
-      "download_count": 63,
+      "download_count": 65,
       "created_at": "2026-10-10T08:41:26Z",
       "updated_at": "2026-10-10T08:41:27Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.netbsd-arm"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 8134939,
       "digest": "sha256:7bbb46da321ad777e40556d7e8b838892e494944f4a0c866ec93ecb13d4a850a",
-      "download_count": 62,
+      "download_count": 65,
       "created_at": "2026-10-10T08:41:27Z",
       "updated_at": "2026-10-10T08:41:27Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.openbsd-386"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 8503581,
       "digest": "sha256:ee1b4a4896f99ae19f44cd2d270bd04888251e6b1554d7f122c30f2075a2784d",
-      "download_count": 63,
+      "download_count": 65,
       "created_at": "2026-10-10T08:41:27Z",
       "updated_at": "2026-10-10T08:41:28Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.openbsd-amd64"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 8516096,
       "digest": "sha256:d23498c648440266a953acaea615231c4d906db525b173806e8e09bdabd064ed",
-      "download_count": 219,
+      "download_count": 226,
       "created_at": "2026-10-10T08:41:27Z",
       "updated_at": "2026-10-10T08:41:28Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.windows-386.exe"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 8831488,
       "digest": "sha256:62a6a16a3473b8e03c2cdc4e2099655bd4284f6da92122b96d78cdce724d4064",
-      "download_count": 4115,
+      "download_count": 4209,
       "created_at": "2026-10-10T08:41:27Z",
       "updated_at": "2026-10-10T08:41:29Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.windows-amd64.exe"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 8052736,
       "digest": "sha256:d764268f5090ef9fb3b0219c410feaaa00dc514454e47b40d179d207e7190d35",
-      "download_count": 222,
+      "download_count": 228,
       "created_at": "2026-10-10T08:41:27Z",
       "updated_at": "2026-10-10T08:41:28Z",
       "browser_download_url": "https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.windows-arm64.exe"
