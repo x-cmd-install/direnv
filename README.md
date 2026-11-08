@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,536 · **Forks**: 948 · **Open issues**: 814 · **Contributors**: 279
+- **Stars**: 15,537 · **Forks**: 946 · **Open issues**: 814 · **Contributors**: 279
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 3 | 18 | 1 | 4 | 5 |
-| last60d | 2026-09-08 | 2 | 16 | 18 | 2 | 4 | 34 |
-| 90d | 2026-08-09 | 2 | 20 | 18 | 6 | 4 | 39 |
-| last180d | 2026-05-11 | 2 | 29 | 19 | 11 | 9 | 51 |
-| 360d | 2025-11-12 | 2 | 54 | 23 | 22 | 19 | 87 |
-| last720d | 2024-11-17 | 5 | 120 | 29 | 54 | 48 | 321 |
+| 30d | 2026-10-09 | 1 | 2 | 18 | 0 | 4 | 5 |
+| last60d | 2026-09-09 | 2 | 16 | 18 | 2 | 4 | 34 |
+| 90d | 2026-08-10 | 2 | 20 | 18 | 6 | 4 | 39 |
+| last180d | 2026-05-12 | 2 | 29 | 19 | 11 | 9 | 51 |
+| 360d | 2025-11-13 | 2 | 54 | 23 | 22 | 19 | 87 |
+| last720d | 2024-11-18 | 5 | 120 | 29 | 54 | 48 | 321 |
 
 ## Release assets
 
@@ -122,4 +122,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T04:24:53Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T04:08:34Z._
