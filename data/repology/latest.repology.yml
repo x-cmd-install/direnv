@@ -1,16 +1,23 @@
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: direnv
-  binnames:
-    - direnv
+- repo: scoop
+  subrepo: main
+  binname: direnv
   visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
+  version: 2.38.2
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: spack
+  srcname: direnv
+  visiblename: direnv
+  version: master
+  origversion: null
+  status: rolling
   maintainers:
-    - punit@debian.org
-  categories:
-    - misc
+    - acastanedam@spack
+    - alecbcs@spack
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: direnv
@@ -297,6 +304,19 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.25.2
+  origversion: 2.25.2-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: direnv
@@ -310,19 +330,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: direnv
@@ -470,14 +477,27 @@
   origversion: null
   status: outdated
   summary: Shell augmentation through load and unload of environment variables depending on the current directory
-- repo: debian_11
-  subrepo: bullseye/main
+- repo: debian_12
+  subrepo: bookworm/main
   srcname: direnv
   binnames:
     - direnv
   visiblename: direnv
-  version: 2.25.2
-  origversion: 2.25.2-2
+  version: 2.32.1
+  origversion: 2.32.1-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
   status: outdated
   maintainers:
     - punit@debian.org
@@ -652,6 +672,32 @@
     - MIT
   categories:
     - Unspecified
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
 - repo: fedora_44
   subrepo: release
   srcname: direnv
@@ -794,6 +840,19 @@
     - BSD
   categories:
     - app-shells
+- repo: raspbian_testing
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-shells/direnv
   visiblename: app-shells/direnv
@@ -821,18 +880,6 @@
     - MIT
   categories:
     - app-shells
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: direnv
-  visiblename: direnv
-  version: 2.32.2
-  origversion: 2.32.2-bp155.1.8
-  status: outdated
-  summary: Environment switcher for shells
-  licenses:
-    - MIT
-  categories:
-    - Productivity/File utilities
 - repo: liguros_develop
   srcname: app-shells/direnv
   visiblename: app-shells/direnv
@@ -1000,6 +1047,18 @@
     - ashton@fagg.id.au
   categories:
     - sysutils
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: direnv
+  visiblename: direnv
+  version: 2.32.2
+  origversion: 2.32.2-bp155.1.8
+  status: outdated
+  summary: Environment switcher for shells
+  licenses:
+    - MIT
+  categories:
+    - Productivity/File utilities
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: direnv
@@ -1172,78 +1231,6 @@
     - punit@debian.org
   categories:
     - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: direnv
-  visiblename: direnv
-  version: 2.38.2
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - universe/misc
-- repo: spack
-  srcname: direnv
-  visiblename: direnv
-  version: master
-  origversion: null
-  status: rolling
-  maintainers:
-    - acastanedam@spack
-    - alecbcs@spack
-  licenses:
-    - MIT
 - repo: spack
   srcname: direnv
   visiblename: direnv
@@ -1406,6 +1393,19 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: direnv
   binnames:
     - direnv
