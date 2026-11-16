@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,549 · **Forks**: 947 · **Open issues**: 814 · **Contributors**: 279
+- **Stars**: 15,548 · **Forks**: 947 · **Open issues**: 814 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 66 · **Merged PRs**: 579 · **Open PRs**: 45 · **Closed issues**: 510 · **Open issues**: 304 · **Commits**: 1486
+- **Releases**: 66 · **Merged PRs**: 579 · **Open PRs**: 45 · **Closed issues**: 511 · **Open issues**: 303 · **Commits**: 1486
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 11 | 0 | 2 | 0 |
-| last60d | 2026-09-16 | 2 | 15 | 19 | 2 | 4 | 33 |
-| 90d | 2026-08-17 | 2 | 20 | 19 | 5 | 4 | 39 |
-| last180d | 2026-05-19 | 2 | 29 | 20 | 11 | 9 | 51 |
-| 360d | 2025-11-20 | 2 | 53 | 24 | 20 | 19 | 86 |
-| last720d | 2024-11-25 | 5 | 119 | 30 | 54 | 47 | 319 |
+| 30d | 2026-10-17 | 0 | 0 | 9 | 0 | 2 | 0 |
+| last60d | 2026-09-17 | 2 | 15 | 19 | 2 | 4 | 33 |
+| 90d | 2026-08-18 | 2 | 18 | 19 | 5 | 4 | 36 |
+| last180d | 2026-05-20 | 2 | 29 | 20 | 11 | 9 | 50 |
+| 360d | 2025-11-21 | 2 | 53 | 24 | 20 | 17 | 85 |
+| last720d | 2024-11-26 | 5 | 119 | 30 | 54 | 47 | 319 |
 
 ## Release assets
 
@@ -96,7 +96,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **114** distros on [repology.org](https://repology.org/project/direnv). **13** are ✅ on the latest upstream release, **92** are ⚠️ on an older version.
+Reported by **114** distros on [repology.org](https://repology.org/project/direnv). **14** are ✅ on the latest upstream release, **91** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,4 +122,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T04:36:06Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T04:32:52Z._
