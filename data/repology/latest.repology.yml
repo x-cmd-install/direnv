@@ -7,17 +7,6 @@
   status: newest
   licenses:
     - MIT
-- repo: spack
-  srcname: direnv
-  visiblename: direnv
-  version: master
-  origversion: null
-  status: rolling
-  maintainers:
-    - acastanedam@spack
-    - alecbcs@spack
-  licenses:
-    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: direnv
@@ -304,32 +293,32 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: debian_11
-  subrepo: bullseye/main
+- repo: alpine_3_24
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.37.1
+  origversion: 2.37.1-r9
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: debian_12
+  subrepo: bookworm/main
   srcname: direnv
   binnames:
     - direnv
   visiblename: direnv
-  version: 2.25.2
-  origversion: 2.25.2-2
+  version: 2.32.1
+  origversion: 2.32.1-2
   status: outdated
   maintainers:
     - punit@debian.org
   categories:
     - misc
-- repo: alpine_3_24
-  subrepo: community
-  srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.37.1
-  origversion: 2.37.1-r9
-  status: outdated
-  summary: Environment variable switcher for the shell (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: direnv
@@ -473,12 +462,25 @@
 - repo: chocolatey
   binname: direnv
   visiblename: direnv
-  version: 2.37.1
+  version: 2.38.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Shell augmentation through load and unload of environment variables depending on the current directory
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.25.2
+  origversion: 2.25.2-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: direnv
   binnames:
     - direnv
@@ -672,32 +674,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
 - repo: fedora_44
   subrepo: release
   srcname: direnv
@@ -714,6 +690,19 @@
     - BSD-3-Clause AND MIT
   categories:
     - Unspecified
+- repo: raspbian_stable
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
 - repo: fedora_rawhide
   subrepo: development
   srcname: direnv
@@ -840,19 +829,6 @@
     - BSD
   categories:
     - app-shells
-- repo: raspbian_testing
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: app-shells/direnv
   visiblename: app-shells/direnv
@@ -867,6 +843,19 @@
     - BSD
   categories:
     - app-shells
+- repo: raspbian_testing
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-shells/direnv
   visiblename: app-shells/direnv
@@ -1125,7 +1114,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: direnv
   binnames:
     - direnv
@@ -1138,7 +1127,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: direnv
   binnames:
     - direnv
@@ -1167,7 +1156,7 @@
   binname: direnv
   visiblename: sysutils/direnv
   version: 2.37.1
-  origversion: 2.37.1nb17
+  origversion: 2.37.1nb18
   status: outdated
   summary: Environment switcher for the shell
   maintainers:
@@ -1231,6 +1220,17 @@
     - punit@debian.org
   categories:
     - utils
+- repo: spack
+  srcname: direnv
+  visiblename: direnv
+  version: master
+  origversion: null
+  status: rolling
+  maintainers:
+    - acastanedam@spack
+    - alecbcs@spack
+  licenses:
+    - MIT
 - repo: spack
   srcname: direnv
   visiblename: direnv
