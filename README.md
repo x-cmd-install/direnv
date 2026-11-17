@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,548 · **Forks**: 947 · **Open issues**: 814 · **Contributors**: 279
+- **Stars**: 15,552 · **Forks**: 948 · **Open issues**: 814 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 66 · **Merged PRs**: 579 · **Open PRs**: 45 · **Closed issues**: 511 · **Open issues**: 303 · **Commits**: 1486
+- **Releases**: 66 · **Merged PRs**: 579 · **Open PRs**: 46 · **Closed issues**: 511 · **Open issues**: 303 · **Commits**: 1486
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 9 | 0 | 2 | 0 |
-| last60d | 2026-09-17 | 2 | 15 | 19 | 2 | 4 | 33 |
-| 90d | 2026-08-18 | 2 | 18 | 19 | 5 | 4 | 36 |
-| last180d | 2026-05-20 | 2 | 29 | 20 | 11 | 9 | 50 |
-| 360d | 2025-11-21 | 2 | 53 | 24 | 20 | 17 | 85 |
-| last720d | 2024-11-26 | 5 | 119 | 30 | 54 | 47 | 319 |
+| 30d | 2026-10-18 | 0 | 0 | 11 | 0 | 2 | 0 |
+| last60d | 2026-09-18 | 2 | 15 | 20 | 2 | 4 | 33 |
+| 90d | 2026-08-19 | 2 | 18 | 20 | 5 | 4 | 36 |
+| last180d | 2026-05-21 | 2 | 29 | 21 | 11 | 9 | 50 |
+| 360d | 2025-11-22 | 2 | 53 | 25 | 20 | 17 | 85 |
+| last720d | 2024-11-27 | 5 | 119 | 31 | 54 | 47 | 319 |
 
 ## Release assets
 
@@ -96,7 +96,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **114** distros on [repology.org](https://repology.org/project/direnv). **14** are ✅ on the latest upstream release, **91** are ⚠️ on an older version.
+Reported by **115** distros on [repology.org](https://repology.org/project/direnv). **17** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -110,7 +110,7 @@ Reported by **114** distros on [repology.org](https://repology.org/project/diren
 | Fedora rawhide | `2.37.1` | ⚠️ outdated |
 | Nix unstable | `2.38.2` | ✅ latest |
 | Void | `2.37.1` | ⚠️ outdated |
-| Alpine edge | `2.37.1` | ⚠️ outdated |
+| Alpine edge | `2.38.2` | ✅ latest |
 | openSUSE Tumbleweed | `2.37.1` | ⚠️ outdated |
 
 ## Improve this data
@@ -122,4 +122,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T04:32:52Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T06:19:32Z._
