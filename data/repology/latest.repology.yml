@@ -1,10 +1,14 @@
-- repo: scoop
-  subrepo: main
-  binname: direnv
-  visiblename: direnv
-  version: 2.38.2
-  origversion: null
-  status: newest
+- repo: alpine_3_22
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.36.0
+  origversion: 2.36.0-r6
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
   licenses:
     - MIT
 - repo: alpine_3_17
@@ -228,19 +232,19 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_3_22
-  subrepo: community
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.36.0
-  origversion: 2.36.0-r6
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
   status: outdated
-  summary: configuration hooks for fish
   maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
+    - punit@debian.org
+  categories:
+    - misc
 - repo: alpine_3_23
   subrepo: community
   srcname: direnv
@@ -306,8 +310,21 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: alpine_3_24
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.37.1
+  origversion: 2.37.1-r9
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: debian_13
+  subrepo: trixie/main
   srcname: direnv
   binnames:
     - direnv
@@ -319,27 +336,14 @@
     - punit@debian.org
   categories:
     - misc
-- repo: alpine_3_24
-  subrepo: community
-  srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.37.1
-  origversion: 2.37.1-r9
-  status: outdated
-  summary: configuration hooks for fish
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: direnv
   binname: direnv
   visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-r9
-  status: outdated
+  version: 2.38.2
+  origversion: 2.38.2-r0
+  status: newest
   summary: Environment variable switcher for the shell
   maintainers:
     - kdaudt@alpinelinux.org
@@ -350,9 +354,9 @@
   srcname: direnv
   binname: direnv-doc
   visiblename: direnv-doc
-  version: 2.37.1
-  origversion: 2.37.1-r9
-  status: outdated
+  version: 2.38.2
+  origversion: 2.38.2-r0
+  status: newest
   summary: Environment variable switcher for the shell (documentation)
   maintainers:
     - kdaudt@alpinelinux.org
@@ -363,9 +367,9 @@
   srcname: direnv
   binname: direnv-fish
   visiblename: direnv-fish
-  version: 2.37.1
-  origversion: 2.37.1-r9
-  status: outdated
+  version: 2.38.2
+  origversion: 2.38.2-r0
+  status: newest
   summary: configuration hooks for fish
   maintainers:
     - kdaudt@alpinelinux.org
@@ -479,8 +483,8 @@
     - punit@debian.org
   categories:
     - misc
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: debian_12
+  subrepo: bookworm/main
   srcname: direnv
   binnames:
     - direnv
@@ -492,8 +496,8 @@
     - punit@debian.org
   categories:
     - misc
-- repo: debian_13
-  subrepo: trixie/main
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: direnv
   binnames:
     - direnv
@@ -550,19 +554,6 @@
   visiblename: direnv
   version: 2.25.2
   origversion: 2.25.2-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
   status: outdated
   maintainers:
     - punit@debian.org
@@ -684,6 +675,22 @@
   visiblename: direnv
   version: 2.37.1
   origversion: 2.37.1-6.fc44
+  status: outdated
+  summary: Per-directory shell configuration tool
+  licenses:
+    - BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: direnv
+  binnames:
+    - direnv
+    - direnv-debuginfo
+    - direnv-debugsource
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-7.fc45
   status: outdated
   summary: Per-directory shell configuration tool
   licenses:
@@ -1022,6 +1029,15 @@
   summary: Shell extension that manages your environment
   maintainers:
     - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: main
+  binname: direnv
+  visiblename: direnv
+  version: 2.38.2
+  origversion: null
+  status: newest
   licenses:
     - MIT
 - repo: openbsd
