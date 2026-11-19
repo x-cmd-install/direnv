@@ -1,330 +1,72 @@
-- repo: alpine_3_22
-  subrepo: community
-  srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.36.0
-  origversion: 2.36.0-r6
-  status: outdated
-  summary: configuration hooks for fish
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-r9
-  status: outdated
-  summary: Environment variable switcher for the shell
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.32.1
-  origversion: 2.32.1-r9
-  status: outdated
-  summary: Environment variable switcher for the shell (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.32.1
-  origversion: 2.32.1-r9
-  status: outdated
-  summary: configuration hooks for fish
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.32.2
-  origversion: 2.32.2-r10
-  status: outdated
-  summary: Environment variable switcher for the shell
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.32.2
-  origversion: 2.32.2-r10
-  status: outdated
-  summary: Environment variable switcher for the shell (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.32.2
-  origversion: 2.32.2-r10
-  status: outdated
-  summary: configuration hooks for fish
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.33.0
-  origversion: 2.33.0-r3
-  status: outdated
-  summary: Environment variable switcher for the shell
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.33.0
-  origversion: 2.33.0-r3
-  status: outdated
-  summary: Environment variable switcher for the shell (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.33.0
-  origversion: 2.33.0-r3
-  status: outdated
-  summary: configuration hooks for fish
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.34.0
-  origversion: 2.34.0-r5
-  status: outdated
-  summary: Environment variable switcher for the shell
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.34.0
-  origversion: 2.34.0-r5
-  status: outdated
-  summary: Environment variable switcher for the shell (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.34.0
-  origversion: 2.34.0-r5
-  status: outdated
-  summary: configuration hooks for fish
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.35.0
-  origversion: 2.35.0-r5
-  status: outdated
-  summary: Environment variable switcher for the shell
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.35.0
-  origversion: 2.35.0-r5
-  status: outdated
-  summary: Environment variable switcher for the shell (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.35.0
-  origversion: 2.35.0-r5
-  status: outdated
-  summary: configuration hooks for fish
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.36.0
-  origversion: 2.36.0-r6
-  status: outdated
-  summary: Environment variable switcher for the shell
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.36.0
-  origversion: 2.36.0-r6
-  status: outdated
-  summary: Environment variable switcher for the shell (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: direnv
   binnames:
     - direnv
   visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
+  version: 2.25.2
+  origversion: 2.25.2-2
   status: outdated
   maintainers:
     - punit@debian.org
   categories:
-    - misc
-- repo: alpine_3_23
-  subrepo: community
+    - utils
+- repo: nix_stable_25_05
   srcname: direnv
-  binname: direnv
+  visiblename: direnv
+  version: 2.36.0
+  origversion: null
+  status: outdated
+  summary: Shell extension that manages your environment
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: direnv
   visiblename: direnv
   version: 2.37.1
-  origversion: 2.37.1-r7
+  origversion: null
   status: outdated
-  summary: Environment variable switcher for the shell
+  summary: Shell extension that manages your environment
   maintainers:
-    - kdaudt@alpinelinux.org
+    - zimbatm@zimbatm.com
   licenses:
     - MIT
-- repo: alpine_3_23
-  subrepo: community
+- repo: pld
   srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.37.1
-  origversion: 2.37.1-r7
-  status: outdated
-  summary: Environment variable switcher for the shell (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.37.1
-  origversion: 2.37.1-r7
-  status: outdated
-  summary: configuration hooks for fish
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: direnv
-  binname: direnv
   visiblename: direnv
   version: 2.37.1
-  origversion: 2.37.1-r9
+  origversion: 2.37.1-1
   status: outdated
-  summary: Environment variable switcher for the shell
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: direnv
-  binname: direnv-doc
-  visiblename: direnv-doc
-  version: 2.37.1
-  origversion: 2.37.1-r9
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.18.2
+  origversion: 2.18.2-2
   status: outdated
-  summary: Environment variable switcher for the shell (documentation)
   maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
+    - punit@debian.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: direnv
-  binname: direnv-fish
-  visiblename: direnv-fish
-  version: 2.37.1
-  origversion: 2.37.1-r9
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
   status: outdated
-  summary: configuration hooks for fish
   maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: debian_13
-  subrepo: trixie/main
+    - punit@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: direnv
   binnames:
     - direnv
@@ -336,6 +78,355 @@
     - punit@debian.org
   categories:
     - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
+- repo: alpine_3_17
+  subrepo: community
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.32.1
+  origversion: 2.32.1-r9
+  status: outdated
+  summary: Environment variable switcher for the shell
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.32.1
+  origversion: 2.32.1-r9
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.32.1
+  origversion: 2.32.1-r9
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.32.2
+  origversion: 2.32.2-r10
+  status: outdated
+  summary: Environment variable switcher for the shell
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.32.2
+  origversion: 2.32.2-r10
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.32.2
+  origversion: 2.32.2-r10
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.33.0
+  origversion: 2.33.0-r3
+  status: outdated
+  summary: Environment variable switcher for the shell
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.33.0
+  origversion: 2.33.0-r3
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.33.0
+  origversion: 2.33.0-r3
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.34.0
+  origversion: 2.34.0-r5
+  status: outdated
+  summary: Environment variable switcher for the shell
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.34.0
+  origversion: 2.34.0-r5
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.34.0
+  origversion: 2.34.0-r5
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.35.0
+  origversion: 2.35.0-r5
+  status: outdated
+  summary: Environment variable switcher for the shell
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.35.0
+  origversion: 2.35.0-r5
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.35.0
+  origversion: 2.35.0-r5
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.36.0
+  origversion: 2.36.0-r6
+  status: outdated
+  summary: Environment variable switcher for the shell
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.36.0
+  origversion: 2.36.0-r6
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.36.0
+  origversion: 2.36.0-r6
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-r7
+  status: outdated
+  summary: Environment variable switcher for the shell
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-r10
+  status: outdated
+  summary: Environment variables loader
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.37.1
+  origversion: 2.37.1-r7
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.37.1
+  origversion: 2.37.1-r7
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: direnv
+  binname: direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-r9
+  status: outdated
+  summary: Environment variable switcher for the shell
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: direnv
+  binname: direnv-doc
+  visiblename: direnv-doc
+  version: 2.37.1
+  origversion: 2.37.1-r9
+  status: outdated
+  summary: Environment variable switcher for the shell (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: direnv
+  binname: direnv-fish
+  visiblename: direnv-fish
+  version: 2.37.1
+  origversion: 2.37.1-r9
+  status: outdated
+  summary: configuration hooks for fish
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: direnv
@@ -412,7 +503,7 @@
   binname: direnv
   visiblename: direnv
   version: 2.37.1
-  origversion: 2.37.1-1
+  origversion: 2.37.1-2
   status: outdated
   summary: Tool for load and unload environment variables depending on the current directory
   maintainers:
@@ -428,17 +519,6 @@
   origversion: 2.38.2-1
   status: newest
   summary: A shell extension that manages your environment
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: direnv
-  binname: direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-r10
-  status: outdated
-  summary: Environment variables loader
   licenses:
     - MIT
 - repo: chimera
@@ -496,8 +576,8 @@
     - punit@debian.org
   categories:
     - misc
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: debian_13
+  subrepo: trixie/main
   srcname: direnv
   binnames:
     - direnv
@@ -554,6 +634,19 @@
   visiblename: direnv
   version: 2.25.2
   origversion: 2.25.2-2
+  status: outdated
+  maintainers:
+    - punit@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: direnv
+  binnames:
+    - direnv
+  visiblename: direnv
+  version: 2.37.1
+  origversion: 2.37.1-1
   status: outdated
   maintainers:
     - punit@debian.org
@@ -616,6 +709,17 @@
     - MIT
   categories:
     - Unspecified
+- repo: nix_stable_24_05
+  srcname: direnv
+  visiblename: direnv
+  version: 2.34.0
+  origversion: null
+  status: outdated
+  summary: A shell extension that manages your environment
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
 - repo: fedora_41
   subrepo: release
   srcname: direnv
@@ -697,19 +801,6 @@
     - BSD-3-Clause AND MIT
   categories:
     - Unspecified
-- repo: raspbian_stable
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
 - repo: fedora_rawhide
   subrepo: development
   srcname: direnv
@@ -787,6 +878,17 @@
   origversion: null
   status: outdated
   summary: Environment switcher for the shell
+- repo: nix_stable_24_11
+  srcname: direnv
+  visiblename: direnv
+  version: 2.35.0
+  origversion: null
+  status: outdated
+  summary: Shell extension that manages your environment
+  maintainers:
+    - zimbatm@zimbatm.com
+  licenses:
+    - MIT
 - repo: haikuports_master
   srcname: app-shells/direnv
   visiblename: app-shells/direnv
@@ -850,19 +952,6 @@
     - BSD
   categories:
     - app-shells
-- repo: raspbian_testing
-  subrepo: main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: app-shells/direnv
   visiblename: app-shells/direnv
@@ -965,50 +1054,6 @@
   summary: A shell extension that manages your environment
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: direnv
-  visiblename: direnv
-  version: 2.34.0
-  origversion: null
-  status: outdated
-  summary: A shell extension that manages your environment
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: direnv
-  visiblename: direnv
-  version: 2.35.0
-  origversion: null
-  status: outdated
-  summary: Shell extension that manages your environment
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: direnv
-  visiblename: direnv
-  version: 2.36.0
-  origversion: null
-  status: outdated
-  summary: Shell extension that manages your environment
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: direnv
-  visiblename: direnv
-  version: 2.37.1
-  origversion: null
-  status: outdated
-  summary: Shell extension that manages your environment
-  maintainers:
-    - zimbatm@zimbatm.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: direnv
   visiblename: direnv
@@ -1029,15 +1074,6 @@
   summary: Shell extension that manages your environment
   maintainers:
     - zimbatm@zimbatm.com
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
-  binname: direnv
-  visiblename: direnv
-  version: 2.38.2
-  origversion: null
-  status: newest
   licenses:
     - MIT
 - repo: openbsd
@@ -1130,7 +1166,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: direnv
   binnames:
     - direnv
@@ -1143,7 +1179,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: direnv
   binnames:
     - direnv
@@ -1191,51 +1227,15 @@
     - leot@netbsd.org
   categories:
     - sysutils
-- repo: pld
-  srcname: direnv
+- repo: scoop
+  subrepo: main
+  binname: direnv
   visiblename: direnv
-  version: 2.37.1
-  origversion: 2.37.1-1
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.18.2
-  origversion: 2.18.2-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.25.2
-  origversion: 2.25.2-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: direnv
-  binnames:
-    - direnv
-  visiblename: direnv
-  version: 2.32.1
-  origversion: 2.32.1-2
-  status: outdated
-  maintainers:
-    - punit@debian.org
-  categories:
-    - utils
+  version: 2.38.2
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: spack
   srcname: direnv
   visiblename: direnv
