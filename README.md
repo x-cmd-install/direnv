@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,555 · **Forks**: 947 · **Open issues**: 814 · **Contributors**: 279
+- **Stars**: 15,557 · **Forks**: 886 · **Open issues**: 814 · **Contributors**: 279
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 9 | 0 | 1 | 0 |
-| last60d | 2026-09-21 | 2 | 15 | 19 | 2 | 4 | 33 |
-| 90d | 2026-08-22 | 2 | 18 | 19 | 4 | 4 | 36 |
-| last180d | 2026-05-24 | 2 | 28 | 20 | 11 | 9 | 50 |
-| 360d | 2025-11-25 | 2 | 52 | 24 | 20 | 17 | 85 |
-| last720d | 2024-11-30 | 5 | 119 | 30 | 54 | 47 | 319 |
+| 30d | 2026-10-22 | 0 | 0 | 7 | 0 | 0 | 0 |
+| last60d | 2026-09-22 | 2 | 15 | 19 | 2 | 4 | 33 |
+| 90d | 2026-08-23 | 2 | 18 | 19 | 4 | 4 | 36 |
+| last180d | 2026-05-25 | 2 | 28 | 20 | 11 | 8 | 50 |
+| 360d | 2025-11-26 | 2 | 52 | 24 | 19 | 17 | 85 |
+| last720d | 2024-12-01 | 5 | 119 | 30 | 54 | 46 | 319 |
 
 ## Release assets
 
@@ -96,7 +96,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **115** distros on [repology.org](https://repology.org/project/direnv). **17** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
+Reported by **114** distros on [repology.org](https://repology.org/project/direnv). **17** are ✅ on the latest upstream release, **88** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,4 +122,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T05:32:22Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T05:25:55Z._
