@@ -48,7 +48,7 @@ x install direnv
 
 ## 流行度
 
-- **Star**: 15,560 · **Fork**: 887 · **开放 issue**: 814 · **贡献者**: 279
+- **Star**: 15,562 · **Fork**: 887 · **开放 issue**: 814 · **贡献者**: 279
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install direnv
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 0 | 8 | 0 | 0 | 0 |
-| last60d | 2026-09-26 | 2 | 14 | 20 | 2 | 4 | 32 |
-| 90d | 2026-08-27 | 2 | 18 | 20 | 4 | 4 | 36 |
-| last180d | 2026-05-29 | 2 | 28 | 21 | 11 | 8 | 50 |
-| 360d | 2025-11-30 | 2 | 52 | 25 | 19 | 17 | 84 |
-| last720d | 2024-12-05 | 5 | 119 | 31 | 53 | 45 | 319 |
+| 30d | 2026-10-27 | 0 | 0 | 8 | 0 | 0 | 0 |
+| last60d | 2026-09-27 | 2 | 14 | 20 | 2 | 4 | 32 |
+| 90d | 2026-08-28 | 2 | 18 | 20 | 4 | 4 | 36 |
+| last180d | 2026-05-30 | 2 | 28 | 21 | 11 | 8 | 50 |
+| 360d | 2025-12-01 | 2 | 52 | 25 | 19 | 17 | 84 |
+| last720d | 2024-12-06 | 5 | 119 | 31 | 52 | 45 | 319 |
 
 ## Release 资产
 
@@ -94,25 +94,6 @@ x install direnv
 | [direnv.windows-amd64.exe](https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.windows-amd64.exe) | 8.4 MiB | `native/win/x64` |
 | [direnv.windows-arm64.exe](https://github.com/direnv/direnv/releases/download/v2.38.2/direnv.windows-arm64.exe) | 7.7 MiB | `native/win/arm64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/direnv) 上共有 **113** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**86** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `2.37.1` | ⚠️ outdated |
-| Debian 14 | `2.37.1` | ⚠️ outdated |
-| Debian 13 | `2.32.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.37.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.32.1` | ⚠️ outdated |
-| Arch | `2.38.2` | ✅ latest |
-| Homebrew | `2.38.2` | ✅ latest |
-| Fedora rawhide | `2.37.1` | ⚠️ outdated |
-| Nix unstable | `2.38.2` | ✅ latest |
-| Void | `2.37.1` | ⚠️ outdated |
-| Alpine edge | `2.38.2` | ✅ latest |
-| openSUSE Tumbleweed | `2.37.1` | ⚠️ outdated |
-
 ## 改进这些数据
 
 direnv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `direnv` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -122,4 +103,4 @@ direnv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T06:47:15Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T06:38:45Z._
