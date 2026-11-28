@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 8 | 0 | 0 | 0 |
-| last60d | 2026-09-28 | 2 | 14 | 20 | 2 | 4 | 32 |
-| 90d | 2026-08-29 | 2 | 18 | 20 | 3 | 4 | 36 |
-| last180d | 2026-05-31 | 2 | 28 | 21 | 11 | 8 | 50 |
-| 360d | 2025-12-02 | 2 | 52 | 25 | 19 | 17 | 84 |
-| last720d | 2024-12-07 | 5 | 119 | 31 | 52 | 45 | 319 |
+| 30d | 2026-10-29 | 0 | 0 | 8 | 0 | 0 | 0 |
+| last60d | 2026-09-29 | 2 | 14 | 20 | 2 | 4 | 32 |
+| 90d | 2026-08-30 | 2 | 18 | 20 | 3 | 4 | 36 |
+| last180d | 2026-06-01 | 2 | 28 | 21 | 11 | 8 | 50 |
+| 360d | 2025-12-03 | 2 | 51 | 25 | 19 | 17 | 84 |
+| last720d | 2024-12-08 | 5 | 119 | 31 | 52 | 45 | 319 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for direnv lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T06:29:11Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T06:04:36Z._
